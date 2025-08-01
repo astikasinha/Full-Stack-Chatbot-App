@@ -16,7 +16,7 @@ export default function Home() {
         <Sidebar expand={expand} setExpand={setExpand} />
 
 
-        <div className="flex-1 flex flex-col items-center justify-center px-4 pb-8 bg-[#292a2d] text-white relative">
+        <div className="flex-1 flex flex-col items-center justify-center px-4 pb-8 bg-[#FFFFFF] text-white relative">
           <div className="md:hidden absolute px-4 top-6 flex items-center justify-between w-full">
             <Image
               onClick={() => setExpand(!expand)}
@@ -39,9 +39,9 @@ export default function Home() {
             <>
               <div className="flex items-center gap-3">
                 <Image src={assets.logo_icon} alt="Logo" width={64} height={64} />
-                <p className="text-2xl font-medium">Hi, I am DeepSeek</p>
+                <p className="text-2xl font-medium text-black">Hi, I am Astika's Chatbot App</p>
               </div>
-              <p className="text-sm mt-2">How can I help you today?</p>
+              <p className="text-sm mt-2 text-black">How can I help you today?</p>
             </>
           ) : (
             <div>{/* Render chat messages here */}</div>
