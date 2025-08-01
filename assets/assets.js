@@ -27,7 +27,7 @@ export const assets = {
   arrow_icon,
   arrow_icon_dull,
   logo_text,
-  logo_icon,
+
   menu_icon,
   search_icon,
   profile_icon,
