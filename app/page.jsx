@@ -38,7 +38,7 @@ export default function Home() {
           {messages.length === 0 ? (
             <>
               <div className="flex items-center gap-3">
-                <Image src={assets.logo_icon} alt="Logo" width={64} height={64} />
+               
                 <p className="text-2xl font-medium text-black">Hi, I am Astika's Chatbot App</p>
               </div>
               <p className="text-sm mt-2 text-black">How can I help you today?</p>
